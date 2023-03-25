@@ -1,0 +1,58 @@
+html, body{
+height: 100%;
+width: 100%;
+}
+
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+
+.sketch{
+    display: grid;
+    flex-grow: 6;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.side-bar{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.sketch-cell{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-changer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.slider-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#slider-value{
+    background-color: lightblue;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
