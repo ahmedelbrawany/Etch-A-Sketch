@@ -75,7 +75,7 @@ button{
     border: 2px solid white;
     border-radius: 1rem;
     flex-grow: 1;
-    transition: .5s ease;
+    transition: .3s ease;
     margin-left: 20px;
     height: 50px;
     
@@ -92,7 +92,7 @@ button{
     height: 50px;
     border: none;
     border-radius: 50%;
-    transition: .5s ease;
+    transition: .3s ease;
     background-color: #2d2d2d;
     
 }
@@ -113,7 +113,7 @@ button{
     scale: 1.1;
 }
 
-.random-container, .eraser-container{
+.random-container, .eraser-container, .clear-container{
     display: flex;
     width: 100%;
 
